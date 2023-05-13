@@ -1,0 +1,55 @@
+.footer__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 43px;
+  padding-bottom: 54px;
+}
+
+.footer__top-title {
+  font-family: "Kalam";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #163a24;
+}
+
+.footer__top-social {
+  display: flex;
+}
+
+.footer__top-social img {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.footer__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.footer__bottom-text {
+  display: inline-block;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 21px;
+  color: #163a24;
+}
+
+.footer__bottom-link {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 19px;
+  text-align: right;
+  color: #198c36;
+  text-decoration: none;
+}

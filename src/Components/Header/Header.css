@@ -1,0 +1,100 @@
+.header {
+  width: 100%;
+  background-color: #163a24;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__right-link {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: right;
+  color: #fbfaf7;
+  text-decoration: none;
+  margin-right: 24px;
+}
+
+.nav__btn {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: right;
+  color: #fbfaf7;
+  background: #198c36;
+  border-radius: 160px;
+  padding: 8px 23px;
+  cursor: pointer;
+  border: none;
+  border: 2px solid #198c36;
+  border-radius: 3rem;
+  overflow: hidden;
+  position: relative;
+  transition: 0.2s transform ease-in-out;
+  will-change: transform;
+  z-index: 0;
+}
+.nav__btn::after {
+  background-color: #ff0;
+  border-radius: 3rem;
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-100%, 0) rotate(10deg);
+  transform-origin: top left;
+  transition: 0.2s transform ease-out;
+  will-change: transform;
+  z-index: -1;
+}
+.nav__btn:hover::after {
+  transform: translate(0, 0);
+}
+.nav__btn:hover {
+  border: 2px solid transparent;
+  color: #4b0082;
+  transform: scale(1.05);
+  will-change: transform;
+}
+
+/* font-family: 'Kalam', cursive; */
+
+.header__intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__left-title {
+  font-family: "Kalam";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 55px;
+  color: #fbfaf7;
+  width: 391px;
+  height: 196px;
+  padding-top: 20px;
+}
+
+.header__left-text {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #fbfaf7;
+  width: 475px;
+  height: 84px;
+}

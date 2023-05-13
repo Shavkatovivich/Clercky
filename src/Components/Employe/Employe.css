@@ -1,0 +1,26 @@
+.employe-section {
+  background: #f2efe6;
+  padding-top: 114px;
+  padding-bottom: 136px;
+}
+
+.employe__title {
+  font-family: "Kalam";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 54px;
+  text-align: center;
+  color: #163a24;
+  padding-bottom: 27px;
+}
+
+.employe__text {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #163a24;
+}

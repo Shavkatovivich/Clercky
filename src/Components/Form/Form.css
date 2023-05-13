@@ -1,0 +1,80 @@
+.form-section {
+  padding-top: 54px;
+  padding-bottom: 73px;
+  background: #f2efe6;
+}
+
+.form__left-title {
+  font-family: "Kalam";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 54px;
+  color: #163a24;
+  padding-bottom: 26px;
+}
+
+.form__left-text {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #163a24;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.form__right-input {
+  width: 405px;
+  height: 44px;
+  background: #ffffff;
+  border: 1px solid #f2efe6;
+  border-radius: 255px;
+  outline: none;
+  padding-left: 20px;
+}
+
+.form__right-btn {
+  position: absolute;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #fbfaf7;
+  background: #15762e;
+  border-radius: 160px;
+  width: 111px;
+  height: 42px;
+  border: none;
+  cursor: pointer;
+  transform: translateX(-100%);
+}
+
+.form__text {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #163a24;
+  width: 400px;
+  position: relative;
+}
+
+.form__text-link {
+    position: absolute;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #198c36;
+  transform: translateY(-3px) translateX(6px);
+}
